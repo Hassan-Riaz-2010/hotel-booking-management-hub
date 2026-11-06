@@ -66,3 +66,12 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# Qt
+build-*/
+*.pro.user
+*.user
+*.autosave
+
+# Database backups and secrets
+*.bak
+config.local.*
